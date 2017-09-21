@@ -1,3 +1,10 @@
+**To Propose Changes** 
+(If the file is already in the repo)
+
+1. Go to the file you want me to change
+2. Do the changes & scroll down.
+3. You will see Propose File Change & Click it 
+
 
 **Structure**
 
