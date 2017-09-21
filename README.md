@@ -8,6 +8,8 @@
 
 **Structure**
 
+`const Discord = require('discord.js');` is for RichEmbeds
+
 ```
 const settings = require('../settings.json');
 const Discord = require('discord.js');
