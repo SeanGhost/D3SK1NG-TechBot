@@ -19,8 +19,12 @@ exports.run = (client, message, args) => {
         .setDescription(`Hey ${message.mentions.users.first()}, Instructions For Extreme injector settings have been sent to your PM!`)
         .setFooter('Message deletes in 30s');
     message.delete();
-    message.guild.member(user).sendEmbed(extremepm);
-    message.channel.sendEmbed(embed).then(m => m.delete(30000));
+    message.guild.member(user).send({
+              embed: extremepm
+          });
+          message.channel.send({
+              embed: embed
+          }).then(m => m.delete(30000));
 };
 
   }
